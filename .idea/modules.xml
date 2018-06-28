@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RelativeMethodsCompare.iml" filepath="$PROJECT_DIR$/.idea/RelativeMethodsCompare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestNewFeature/.idea/TestNewFeature.iml" filepath="$PROJECT_DIR$/../TestNewFeature/.idea/TestNewFeature.iml" />
+    </modules>
+  </component>
+</project>
