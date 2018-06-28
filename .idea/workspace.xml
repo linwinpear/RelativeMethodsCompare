@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682ca3af-b0a7-41bd-afb9-0fec2ad29101" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CalculateCorpusData.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculateCorpusData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculateKeynessRelative_AddDictTextToIndex.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculateKeynessRelative_AddDictTextToIndex.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="84" column="59" lean-forward="true" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -37,11 +39,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="737">
+              <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CalculateKeynessRelative_AddFullTextToIndex.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculateKeynessRelative_AddFullTextToIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1649">
-              <caret line="57" column="43" lean-forward="true" selection-end-line="170" />
+            <state relative-caret-position="510">
+              <caret line="164" column="43" lean-forward="true" selection-start-line="164" selection-start-column="43" selection-end-line="164" selection-end-column="43" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -52,8 +63,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TestNewFeature/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -82,8 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CalculateKeynessRelative_AddFullTextToIndex.py" />
-        <option value="$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py" />
         <option value="$PROJECT_DIR$/CalculateCorpusData.py" />
+        <option value="$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -137,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CalculateCorpusData">
+  <component name="RunManager" selected="Python.CalculateKeynessRelative_AddDictTextToIndex">
     <configuration name="CalculateCorpusData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RelativeMethodsCompare" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +181,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\ScientificResearch\Development\Python\Projects\RelativeMethodsCompare\CalculateKeynessRelative_AddFullTextToIndex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="CalculateKeynessRelative_AddDictTextToIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RelativeMethodsCompare" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,9 +245,11 @@
       <item itemvalue="Python.test" />
       <item itemvalue="Python.CalculateKeynessRelative_AddFullTextToIndex" />
       <item itemvalue="Python.CalculateCorpusData" />
+      <item itemvalue="Python.CalculateKeynessRelative_AddDictTextToIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CalculateKeynessRelative_AddDictTextToIndex" />
         <item itemvalue="Python.CalculateCorpusData" />
         <item itemvalue="Python.CalculateKeynessRelative_AddFullTextToIndex" />
         <item itemvalue="Python.test" />
@@ -242,10 +274,10 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -265,16 +297,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../TestNewFeature/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UniqueWordsCount.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -287,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculateKeynessRelative_AddFullTextToIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1649">
-          <caret line="57" column="43" lean-forward="true" selection-end-line="170" />
+        <state relative-caret-position="510">
+          <caret line="164" column="43" lean-forward="true" selection-start-line="164" selection-start-column="43" selection-end-line="164" selection-end-column="43" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -305,13 +327,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../TestNewFeature/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculateKeynessRelative_AddDictTextToIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="84" column="59" lean-forward="true" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
         </state>
       </provider>
     </entry>

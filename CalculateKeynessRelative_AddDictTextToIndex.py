@@ -82,15 +82,18 @@ if useMinf:
     F_filtered_counter = Counter({k: v for k, v in F_counter.items() if v / La >= minf})
 
 f_counter = Counter({k: v / La for k, v in F_filtered_counter.most_common()})
-f_sq_counter = Counter({k: v ** 2 for k, v in f_counter.most_common()})
-unique_words = {word for word in f_counter if word not in words_corpora}
+F_filtered_dict_counter = Counter(list(F_filtered_counter))
+La = sum(F_filtered_dict_counter.values())
+f_dict_counter = Counter({k: v / La for k, v in F_filtered_dict_counter.most_common()})
+f_sq_counter = Counter({k: v ** 2 for k, v in f_dict_counter.most_common()})
+unique_words = {word for word in f_dict_counter if word not in words_corpora}
 nc = n + 1
 Lc = sum_L + La
 print(La)
 add_text_words_stats = {}
-for key in f_counter:
-    Fa = F_filtered_counter[key]
-    fa = f_counter[key]
+for key in f_dict_counter:
+    Fa = F_filtered_dict_counter[key]
+    fa = f_dict_counter[key]
     fq = f_sq_counter[key]
     if key in unique_words:
         print(key)
