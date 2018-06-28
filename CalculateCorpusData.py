@@ -80,10 +80,10 @@ def write_dict(path, F, fm, fmw, n_t, sigma, sigmaw, fc, fq):
 
 
 # corpora_path = 'D:/Test'
-corpora_path = 'D:/English base2cleaned&expanded_Metko'
+corpora_path = 'D:\ScientificResearch\TextCorporas\SubCorporas\EnglishMetkoWithLotr'
 start_time = time.perf_counter()
 current_path = os.path.dirname(os.path.abspath(__file__))
-new_path = os.path.join(current_path, 'CorpusData')
+new_path = 'D:\ScientificResearch\TextCorporas\Index'
 if not os.path.exists(new_path):
     os.makedirs(new_path)
 F, fm, fmw, n_t, sigma, sigmaw, fc, fq = read_corpora(corpora_path, new_path)
