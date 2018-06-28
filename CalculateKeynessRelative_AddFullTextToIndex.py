@@ -52,10 +52,10 @@ def save_rang_result(path, counter, F_counter, f_counter, top_n=None):
             i += 1
 
 
-text_path = 'D:/English base2cleaned&expanded_Metko/20,000_Leagues_Under_the_Sea-Jules_Verne.txt'
+text_path = 'D:\ScientificResearch\TextCorporas\SubCorporas\West of Eden_Harrison H.txt'
 # text_path = 'D:/English base2cleaned&expanded_Metko/A_Scandal_In_Bohemia-Conan_Doyle.txt'
-main_corpora_data_path = 'D:/Research/PythonProjects/CorpusData'
-corpora_name = 'English base2cleaned&expanded_Metko_withOtherTolkienTexts'
+main_corpora_data_path = 'D:\ScientificResearch\TextCorporas\Index'
+corpora_name = 'EnglishMetkoWithoutTolkien'
 useMinF = True
 minF = 10
 useMinf = False
@@ -153,7 +153,7 @@ rm9w_counter = Counter({k: f * ((f - add_text_words_stats[k][2]) / add_text_word
                           math.log(nc / add_text_words_stats[k][3])
                         for k, f in f_counter.items() if f - add_text_words_stats[k][2] > 0.0})
 
-current_path = os.path.dirname(os.path.abspath(__file__))
+current_path = 'D:\ScientificResearch\WorkResults\R2018June28\AddFullTextToIndex'
 new_path = os.path.join(current_path, 'ResultRelativeMethod_'+corpora_name)
 if not os.path.exists(new_path):
     os.makedirs(new_path)
